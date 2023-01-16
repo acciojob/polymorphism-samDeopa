@@ -29,14 +29,14 @@ public class Main {
         p.product(1,2);
 
     }
-    static  class  Product{
-        static public int product(int x, int y){
+    public static  class  Product{
+        public static  int product(int x, int y){
             return  x+y;
         }
-        static public int product(int x, int y, int z) {
+        public static  int product(int x, int y, int z) {
             return  x+y+z;
         }
-        static public double product(double x, double y) {
+        public static double product(double x, double y) {
             return x+y;
         }
 
