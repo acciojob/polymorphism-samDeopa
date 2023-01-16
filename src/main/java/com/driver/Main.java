@@ -23,22 +23,23 @@ This class contains 3 classes with same name, but it complie & run successfully
 public class Main {
     public static void main(String[] args) {
         Product p = new Product();
+
         p.product(1,2);
         p.product(1,2,3);
         p.product(1,2);
 
     }
-}
-class  Product{
-    public int product(int x, int y){
-        return  x+y;
-    }
-    public int product(int x, int y, int z) {
-        return  x+y+z;
-    }
-    public double product(double x, double y) {
-        return x+y;
-    }
+    static  class  Product{
+        static public int product(int x, int y){
+            return  x+y;
+        }
+        static public int product(int x, int y, int z) {
+            return  x+y+z;
+        }
+        static public double product(double x, double y) {
+            return x+y;
+        }
 
 
+    }
 }
